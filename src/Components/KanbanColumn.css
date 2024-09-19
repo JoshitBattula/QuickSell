@@ -1,5 +1,5 @@
 .kanban-column {
-    background-color: #fff;
+    background-color: rgba(244,245,248,255);
     padding: 15px;
     margin-right: 10px;
     border-radius: 10px;
@@ -27,23 +27,24 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 10px;
 }
 
 .status-icon,
 .priority-icon {
-    width: 25px;
-    height: 25px;
+    width: 16px;
+    height: 16px;
     margin-right: 10px;
 }
 
 .column-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .more-options-icon {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
+    border: none;
 }
