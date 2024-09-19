@@ -1,0 +1,76 @@
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.display-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.more-options-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.options-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.option-group,
+.option-sort {
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.display-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #ccc; /* Add a light grey border */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.display-button:hover {
+    border-color: #999; /* Darken the border on hover */
+}
